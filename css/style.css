@@ -133,7 +133,15 @@ padding-left:44px;
 line-height: 110%;
 }
 
+.hero p{
 
+padding-top: 28px;
+font-family: "Robot",sans-serif;
+line-height: 160%;
+font-size: 1.125rem;
+padding-left: 40px;
+font-weight: 300;
+}
 
 /* SECTION CONTENU */
 
