@@ -1,0 +1,141 @@
+/* RESET */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* BASE */
+
+body {
+
+    background-color: white;
+    color: black;
+
+}
+
+.wrapper {
+
+    max-width: 1200px;
+    margin: auto;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+
+    list-style-type: none;
+
+}
+
+.material-symbols-outlined {
+
+    font-size: 1.875rem;
+    height: 36px;
+    width: 36px;
+
+}
+
+/* HEADER */
+
+header {
+
+    border-top: 4px solid #E25254;
+
+}
+
+header p {
+
+    font-family: "Jost", sans-serif;
+    font-size: 2.625rem;
+    font-weight: bold;
+    color: black;
+
+}
+
+header a {
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-size: 1, 125rem;
+    font-weight: bold;
+    color: black;
+}
+
+header li :hover {
+
+    color: #E25254;
+}
+
+header .wrapper {
+
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.collé {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+
+}
+
+/* BOUTONS */
+
+
+
+
+/* HERO */
+.hero {
+
+    background: url('../images/HERO.jpg');
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boite-texte {
+
+    position: absolute;
+    right: 345px;
+    top: 150px;
+    height: 450px;
+    width: 590px;
+    background: rgba(226, 82, 84, 0.9);
+    color: white;
+
+
+
+}
+
+
+/* SECTION CONTENU */
+
+
+
+/* CARTES */
+
+
+/* FOOTER */
+
+
+
+/*MODALE*/
