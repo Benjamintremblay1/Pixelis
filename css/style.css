@@ -61,7 +61,7 @@ header p {
 header a {
     color: black;
     font-family: "Jost", sans-serif;
-    font-size: 1, 125rem;
+    font-size: 1.125rem;
     font-weight: bold;
     color: black;
 }
@@ -125,7 +125,7 @@ header .wrapper {
 
 h1{
 
-font-family: "Josh",sans-serif;
+font-family: "Jost",sans-serif;
 font-weight: bold;    
 font-size:3.125rem;
 color:white;
@@ -136,7 +136,7 @@ line-height: 110%;
 .hero p{
 
 padding-top: 28px;
-font-family: "Robot",sans-serif;
+font-family: "Roboto",sans-serif;
 line-height: 160%;
 font-size: 1.125rem;
 padding-left: 40px;
@@ -145,10 +145,102 @@ font-weight: 300;
 
 /* SECTION CONTENU */
 
+.cartes {
+    padding: 80px 0;
+}
 
+.cartes h2 {
+    font-family: "Jost", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.cartes p {
+    max-width: 700px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.contenu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.contenu article {
+    background: #eee;
+    padding: 25px;
+}
+
+.contenu article:first-child {
+    background: #E25254;
+    color: white;
+}
+
+.contenu h3 {
+    font-family: "Jost", sans-serif;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contenu p {
+    font-size: 0.9rem;
+}
 
 
 /* SECTION CONSEILS */
+
+.conseil {
+    padding: 80px 0;
+    color: white;
+}
+
+.conseil h2 {
+    font-family: "Jost", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.conseil > .wrapper > p {
+    max-width: 700px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.encadrés {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.encadrés article {
+    background: #eee;
+    color: black;
+    padding: 30px;
+    position: relative;
+}
+
+.encadrés h3 {
+    font-family: "Jost", sans-serif;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.encadrés a {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: #E25254;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 15px;
+}
 
 .conseil{
 
@@ -164,6 +256,16 @@ background-color: #8B2D2F;
 
 /* FOOTER */
 
+footer {
+    background: #E25254;
+    color: white;
+    padding: 20px 0;
+}
 
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
 
 /*MODALE*/
